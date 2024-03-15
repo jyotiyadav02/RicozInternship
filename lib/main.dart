@@ -16,18 +16,18 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.light().copyWith(
         colorScheme: ColorScheme.fromSwatch(
           primarySwatch: const MaterialColor(
-            0xffDB3022,
+            0xff4CAF50,
             <int, Color>{
-              50: const Color(0xffDB3022),
-              100: const Color(0xffDB3022),
-              200: const Color(0xffDB3022),
-              300: const Color(0xffDB3022),
-              400: const Color(0xffDB3022),
-              500: const Color(0xffDB3022),
-              600: const Color(0xffDB3022),
-              700: const Color(0xffDB3022),
-              800: const Color(0xffDB3022),
-              900: const Color(0xffDB3022),
+              50: const Color(0xff4CAF50),
+              100: const Color(0xff4CAF50),
+              200: const Color(0xff4CAF50),
+              300: const Color(0xff4CAF50),
+              400: const Color(0xff4CAF50),
+              500: const Color(0xff4CAF50),
+              600: const Color(0xff4CAF50),
+              700: const Color(0xff4CAF50),
+              800: const Color(0xff4CAF50),
+              900: const Color(0xff4CAF50),
             },
           ),
           // accentColor: Colors.blue, // Light theme accent color
@@ -36,25 +36,26 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData.dark().copyWith(
         colorScheme: ColorScheme.fromSwatch(
           primarySwatch: const MaterialColor(
-            0xff1E1E1E,
+            0xff2196F3,
             <int, Color>{
-              50: const Color(0xff1E1E1E),
-              100: const Color(0xff1E1E1E),
-              200: const Color(0xff1E1E1E),
-              300: const Color(0xff1E1E1E),
-              400: const Color(0xff1E1E1E),
-              500: const Color(0xff1E1E1E),
-              600: const Color(0xff1E1E1E),
-              700: const Color(0xff1E1E1E),
-              800: const Color(0xff1E1E1E),
-              900: const Color(0xff1E1E1E),
+              50: const Color(0xff2196F3),
+              100: const Color(0xff2196F3),
+              200: const Color(0xff2196F3),
+              300: const Color(0xff2196F3),
+              400: const Color(0xff2196F3),
+              500: const Color(0xff2196F3),
+              600: const Color(0xff2196F3),
+              700: const Color(0xff2196F3),
+              800: const Color(0xff2196F3),
+              900: const Color(0xff2196F3),
             },
           ),
           accentColor: Colors.blue, // Dark theme accent color
         ),
       ),
-      themeMode: ThemeMode.system, // Enable system-wide dark mode
+      // themeMode: ThemeMode.system, // Enable system-wide dark mode
       home: const BottomNavigation(), // Renamed to BottomNavigation for clarity
     );
   }
 }
+

@@ -1,3 +1,7 @@
+// import 'package:ecommerceappricoz/screens/home_page_state.dart';
+import 'package:ecommerceappricoz/screens/Favourite_page.dart';
+import 'package:ecommerceappricoz/screens/Profile_page.dart';
+import 'package:ecommerceappricoz/screens/Shop_page.dart';
 import 'package:ecommerceappricoz/screens/home_page_state.dart';
 import 'package:flutter/material.dart';
 
@@ -14,10 +18,14 @@ class _BottomNavigationState extends State<BottomNavigation> {
   // Add your pages/screens here
   final List<Widget> _pages = [
     const MyHomePage(),
+    // const MyHomePage(),
+    const CartPage(),
     const MyHomePage(),
-    const MyHomePage(),
-    const MyHomePage(),
-    const MyHomePage(),
+  WishlistPage(),
+  const ProfilePage(),
+
+    // const MyHomePage(),
+    // const MyHomePage(),
   ];
 
   // Custom icon sizes
